@@ -1,7 +1,7 @@
 # Registro de Ventas en Solana · Entrega final Advanced
 
-**Autor:** [TU NOMBRE COMPLETO, tal como debe aparecer en el certificado]
-**Correo de registro:** [CORREO USADO EN EL REGISTRO DE LUMA]
+**Autor:** Fernando Benítez Plata
+**Correo de registro:** fernandobenpla@gmail.com
 **Ruta elegida:** Proyecto guiado con una mejora funcional
 **Versión de partida:** [Registro-Ventas-Solana-PDA](https://github.com/WayLearnLatam/Registro-Ventas-Solana-PDA) (programa) y [Registro-Ventas-Solana-App](https://github.com/WayLearnLatam/Registro-Ventas-Solana-App) (frontend), de WayLearn, con las cinco operaciones del registro (crear registro, crear cliente, registrar venta, corregir importe y devolución).
 
@@ -11,8 +11,8 @@ Aplicación para gestionar un registro de negocio, sus clientes y sus ventas en 
 
 ## Despliegue en Devnet
 
-- **Program ID:** `[PEGA AQUÍ TU PROGRAM ID]`
-- **Explorer:** https://explorer.solana.com/address/[TU_PROGRAM_ID]?cluster=devnet
+- **Program ID:** `GrsZycN4DeohPL5RosA8wQ5s8ZCEeusJUDKkxPUAo4WF`
+- **Explorer:** https://explorer.solana.com/address/GrsZycN4DeohPL5RosA8wQ5s8ZCEeusJUDKkxPUAo4WF?cluster=devnet
 
 ## Base y aporte propio
 
@@ -56,8 +56,8 @@ Aplicación para gestionar un registro de negocio, sus clientes y sus ventas en 
 Requisitos: Node.js 22.12+ (rama 22), wallet de navegador compatible con Solana y SOL de prueba en Devnet ([faucet](https://faucet.solana.com/)).
 
 ```bash
-git clone [URL DE ESTE REPOSITORIO]
-cd [NOMBRE DEL REPOSITORIO]
+git clone https://github.com/fernandobenpla-lang/registro-ventas-solana
+cd registro-ventas-solana
 npm install
 npm run cliente
 npm run dev
@@ -85,20 +85,17 @@ npm run verificar
 
 ## Evidencias
 
-| Operación | Transacción en Explorer |
+| Operación | Evidencia |
 | --- | --- |
-| Crear registro | [enlace] |
-| Crear cliente | [enlace] |
-| Registrar venta | [enlace] |
-| Corregir importe | [enlace] |
-| Devolución | [enlace] |
-| Baja de cliente (válida) | [enlace] |
+| Registro, cliente y venta creados | captura en `evidencias/` |
+| Devolución | [Ver transacción en Explorer](https://explorer.solana.com/tx/5ATS3YBRp4BK2Hntw15xsSuX3kC1Vc5FPwXGZxPRJ5mg3n4Kx4XoGPLEqBqVkVPBacLNZM65pcb8D8J2YdiUkYr5?cluster=devnet) |
+| Baja de cliente (válida) | [Ver transacción en Explorer](https://explorer.solana.com/tx/4595n6nHYzoM5YqtzVbmJBgJJnB8gA23jFvYEugpt594hMbffuFsnHsPVw54FK1DUxmArtVuSN22E24BegQHgAEN?cluster=devnet) |
 | Rechazo por importe | captura en `evidencias/` |
 | Rechazo de baja | captura en `evidencias/` |
 
 ## Uso de IA
 
-Usé IA (Claude) como apoyo para escribir el cambio en Rust, la integración en el frontend y las pruebas. Revisé el código, ejecuté `npm run verificar` y comprobé cada caso en Devnet. [Ajusta esta frase a lo que hiciste realmente.]
+Usé IA (Claude) como apoyo para escribir el cambio en Rust, la integración en el frontend y las pruebas. Revisé el código, ejecuté `npm run verificar` y comprobé cada caso en Devnet.
 
 ## Alcance
 
