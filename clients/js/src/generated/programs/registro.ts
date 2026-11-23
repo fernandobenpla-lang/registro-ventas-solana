@@ -73,7 +73,7 @@ import {
 } from "../instructions";
 
 export const REGISTRO_PROGRAM_ADDRESS =
-  "38oTMyvUTmqkBQeMiuok5F2mPjp9dVadWdBeQTDNmTUY" as Address<"38oTMyvUTmqkBQeMiuok5F2mPjp9dVadWdBeQTDNmTUY">;
+  "GrsZycN4DeohPL5RosA8wQ5s8ZCEeusJUDKkxPUAo4WF" as Address<"GrsZycN4DeohPL5RosA8wQ5s8ZCEeusJUDKkxPUAo4WF">;
 
 export enum RegistroAccount {
   Registro,
@@ -210,7 +210,7 @@ export function identifyRegistroInstruction(
 }
 
 export type ParsedRegistroInstruction<
-  TProgram extends string = "38oTMyvUTmqkBQeMiuok5F2mPjp9dVadWdBeQTDNmTUY",
+  TProgram extends string = "GrsZycN4DeohPL5RosA8wQ5s8ZCEeusJUDKkxPUAo4WF",
 > =
   | ({
       instructionType: RegistroInstruction.CrearRegistro;

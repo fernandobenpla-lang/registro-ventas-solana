@@ -1,9 +1,6 @@
 {
   "version": "0.1.0",
   "name": "registro",
-  "metadata": {
-    "address": "38oTMyvUTmqkBQeMiuok5F2mPjp9dVadWdBeQTDNmTUY"
-  },
   "instructions": [
     {
       "name": "crearRegistro",
@@ -306,5 +303,8 @@
       "name": "ClienteConVentas",
       "msg": "Error, el cliente aun tiene ventas activas; devuelvelas antes de darlo de baja"
     }
-  ]
+  ],
+  "metadata": {
+    "address": "GrsZycN4DeohPL5RosA8wQ5s8ZCEeusJUDKkxPUAo4WF"
+  }
 }
